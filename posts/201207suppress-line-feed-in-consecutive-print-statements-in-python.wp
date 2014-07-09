@@ -1,0 +1,70 @@
+<html><body><p style="text-align: justify;">It might be something that the whole world already knows but I am excited because I just discovered it :). And since programming in python is not something that one learns by first reading a book from cover to cover (at least I did not :P) and then sitting to write code, I presume many may have missed this one little thing like I (and my colleague) did. I mean, I took it forgranted that a print statement will always start with a new line until today.
+Okay coming to the point without further rambling. If I have a function like this:</p>
+
+
+
+<div style="text-align: justify;">
+
+<pre class="console">&gt;&gt;&gt; # Code Snippet One
+
+&gt;&gt;&gt; def print_stupid_stuff():
+
+...    print 1, 'stupid'
+
+...    worthless_var = 42 + 0
+
+...    print 'stuff'</pre>
+
+</div>
+
+<p style="text-align: justify;">then I get something like this when I run it:</p>
+
+
+
+<div style="text-align: justify;">
+
+<pre class="console">&gt;&gt;&gt; print_stupid_stuff()
+
+1, stupid
+
+stuff</pre>
+
+</div>
+
+<p style="text-align: justify;">However if I have something like:</p>
+
+
+
+<div style="text-align: justify;">
+
+<pre class="console">&gt;&gt;&gt; #Code Snippet Two
+
+&gt;&gt;&gt; def print_stupid_stuff():
+
+...    print 1, 'stupid',
+
+...    worthless_var = 42 + 0
+
+...    print 'stuff'</pre>
+
+</div>
+
+<p style="text-align: justify;">The output will be :</p>
+
+
+
+<div style="text-align: justify;">
+
+<pre class="console">&gt;&gt;&gt; print_stupid_stuff()
+
+1 stupid stuff</pre>
+
+</div>
+
+<p style="text-align: justify;">So if you were not able to spot the difference between the two code snippets, there is an extra trailing comma at the end of the first print statement in Code Snippet Two. So a print statement does not prepend a line feed but appends it unless we have a trailing comma.
+
+Those who think that I wasted your time by writing a blog on such trivial a trick, I am not sorry :P. I just wanted to post some code on my blog, why did you read if you think that the post did not have anything significant to offer?</p>
+
+<p style="text-align: justify;">I am posting something on my blog after a long time, don't have anything more to say, but can't stop typing... typing typing abcdabcdabcd aarrrgghh ... thaueu eu et uaeu aeu, CAN'T eau ua CONTROL etu teu MY fiififi FINGERS ssssssss THEY aaaaa WANT ttttt TO oototott TYPE eemmememmmemo MORE etenuteutu</p>
+
+<p style="text-align: justify;">:D, on a serious note, Adios !</p></body></html>

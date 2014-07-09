@@ -1,0 +1,4 @@
+<html><body><p style="text-align: justify;">Off lately tasks at work involved downloading web pages and extracting some information out of them. Mechanize and BeautifulSoup worked wonderfully initially. Though after having come across Requests and PyQuery it seems that I have been doing it wrong (read tedious, non pythonic way) all along. So most of the code written in past few months will have a massive overhaul.</p>
+<p style="text-align: justify;">What seems excellent today will be superseded by something better tomorrow. Evolution is inevitable which makes learning an infinite loop with no exceptions.</p>
+
+<p style="text-align: justify;">This post was an attempt to log a bump in my learning cum evolving curve.</p></body></html>

@@ -1,0 +1,12 @@
+<html><body><p style="text-align: justify;">I had been using Kubuntu for quite a long time now, 7 months I guess and hadn't had time to sit and upgrade my system. This means that I was running old versions of KDE and Firefox. Yesterday the combined effect of frustration due to exams and ever increasing memory consumption of firefox causing the system to hang compelled me to take the decision I had been trying to postpone - Switch the distro.</p>
+<p style="text-align: justify;">My internet connection has a Fair Usage Policy Cap on it and I was not willing to spend it for upgrading the Kubuntu from 10.10 to 11.04 and then to 11.10 nor did I like the idea of downloading Kubuntu 11.10 - I wanted change !!!  So I started lurking around and came across Chakra Linux. I had heard quite a lot of positive comments about it and also had the opportunity of interacting with one of its developers while they were creating its package manager. So I thought - WTH - lets give it a try.</p>
+
+<p style="text-align: justify;">Downloaded the ISO and tried burning it to a pendrive - UNetBootIn didn't work - so I sought refuge in #chakra - where I was told about the dd command. It goes like this:</p>
+
+<p style="text-align: justify;">sudo dd if=/home/Downloads/Chakra-2011.11-Edn-CD-x86_64.iso of=/dev/sdc</p>
+
+<p style="text-align: justify;">The man pages have details regarding the parameters, however one crucial point is that the pendrive should be unmounted when this command is fired.</p>
+
+<p style="text-align: justify;">Rest of the installation was as simple as selecting the partitions and clicking install. The best part was that audio, video, network etc worked right out of the box, I didn't have to <a title="Problematic ACPI on new Dell Studio 1450 laptop" href="http://blog.anuvrat.in/2010/04/problematic-acpi-on-new-dell-studio-1450-laptop/" target="_blank">go about hunting for them.</a> Installed a few softwares using the appset-qt package manager and found it to be great - this is coming from a guy who would rather do an apt-get install instead of using the Software Manager. As of now I am enjoying the amazing interface of KDE 4.7 and smoothness Firefox 8 and I don't think I would be going back to Kubuntu in recent future :)</p>
+
+<p style="text-align: justify;"><a title="Chakra Project's Webite" href="http://www.chakra-project.org">www.chakra-project.org</a></p></body></html>

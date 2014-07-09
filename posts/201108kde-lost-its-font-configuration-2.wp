@@ -1,0 +1,12 @@
+<html><body><p>Yesterday when I turned my laptop on I felt that something was wrong. Right after logging in I could see that the text, especially in Firefox was looking typically weird. Everything looked like un-antialiased fixed width monospace fonts. I had faced this problem, but quite some time ago. Having been a new convert from Windows User to Linux Enthusiast, I had taken the easiest (and most stupid) approach for solving the problem - complete re-installation of the whole operating system.
+
+
+Having been using Linux for more than two years now, I have learnt that formatting / re-installing is the cowards / layman (laymen != cowards) approach to solving a problem. So I dived in and as usual found someone who had experienced a <a href="http://ubuntuforums.org/showpost.php?p=8251178">similar issue.</a> The solution cited in <a href="http://ubuntuforums.org/showpost.php?p=8251178&amp;postcount=16">16th post</a> worked for me.
+
+
+
+Deleting the file ~/.fonts.conf solved the problem and I got an explanation at #kde-in IRC channel.
+
+</p><blockquote>&lt;gopalK&gt; anuvrat: ~/.fonts.conf is a per user config file and there is a global one at /etc/fonts/local.conf . ~/.fonts.conf has higher preference than the global one. There was some setting in ~/.fonts.conf that was messing ur fonts, deleting this file made it take from the global configuration which solved ur problem</blockquote>
+
+I think, with more experience, I will be able to solve such issues by editing the files and not deleting them.</body></html>

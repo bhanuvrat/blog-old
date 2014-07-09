@@ -1,0 +1,34 @@
+<html><body><p>http://stackoverflow.com/a/10953696/338691
+
+
+Just documenting the way I setup my working environment for Django 1.4 on Dreamhost.
+
+
+
+Django needs to be installed using virtualenv, since mine is a shared hosting account. Found the instructions for installing virtualenv at [1].
+
+
+
+wget http://pypi.python.org/packages/source/v/virtualenv/virtualenv-1.7.1.2.tar.gz
+
+
+
+tar xzf virtualenv-1.7.1.2.tar.gz
+
+python virtualenv-1.7.1.2/virtualenv.py $HOME/env
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+1. http://blog.oscarcp.com/?p=167</p></body></html>

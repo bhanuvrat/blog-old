@@ -1,0 +1,14 @@
+<html><body><p style="text-align: justify;">I have been using KDE, or rather specifically Kubuntu for a couple of months at a stretch now and I must admit that fancy stuff like the desktop effects are not at the top of the priority on a normal day of work. This I guess, was the primary reason why I had not taken out time to fix my broken desktop effects since about four months. So tonight, for a change,  I kinda resolved to get a solution for the perennial problem. Before I get to the solution, I should better describe what the problem was and how it all began.</p>
+<p style="text-align: justify;">One fine day, I booted my computer to find that the desktop effects were not working any more. I went to the System Settings -&gt; Desktop Settings to see what was wrong. I found a message stating Desktop Effects could not be enabled because of the following problems and to my demise there was no detail on what technical problems had been the cause. When I tried to Resume Compositing by clicking a button having same text, a system tray message asked me to use Alt+Shift+F12 to get the job done. Now upon pressing the Alt+Shift+F12, the message stating "Desktop Compositing is <span style="text-decoration: underline;">suspended</span> changed to <span style="text-decoration: underline;">Active</span>, but else happened and the message even reverted after a few seconds. All this time the area in System Settings -&gt; Desktop Settings -&gt; All Effects which shows a comprehensive list of all available effects was even vacant.</p>
+
+<p style="text-align: justify;">Tired and Confused of hunting in forums and trying out different advices that had seemed to work for others I resorted to IRC and a generous fellow KDE enthusiast enlightened me.</p>
+
+<p style="text-align: left;">The solution was to simply delete the file</p>
+
+
+
+<blockquote>~/.kde/share/config/kwinrc</blockquote>
+
+<p style="text-align: left;">and everything got back to normal.</p>
+
+<p style="text-align: left;"></p></body></html>

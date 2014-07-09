@@ -1,0 +1,22 @@
+<html><body><p style="text-align: justify;">If the first question after reading the title of this post is - "What? What is LaTeX?". Then you should probably read <a title="LaTeX" href="https://secure.wikimedia.org/wikipedia/en/wiki/LaTeX">this</a> before moving on.
+When an electronic-document is to be created, the natural instinct of every computer literate is to use a word editing software. So was mine, until I came across this wonderful tool. So anybody who has used a word editing software is bound to have faced silly problems with it. Most prominent one was loss of formatting. Keeping aside the evilness of closed source software, Microsoft Word is good at its job. Still, a file created in a previous version when opened in the newer version or vice versa (if at all possible) used to cause havoc to the content of the document. Images were the ones to suffer the most - Leaving the position where they were supposed to be and sticking to another corner, or perhaps some other page altogether. And as far as Open Office or Libre Office are concerned, they aren't mature enough. (I have high expectations from <a href="http://www.calligra-suite.org/" target="_blank">Calligra Office Suite</a> from KDE). I also gave the word editing utilities of Google Docs, and <a href="http://thinkfree.com" target="_blank">ThinkFree Office Suite</a> a try for no good.
+
+So now it was time to get some power - And power comes from control - control over what goes where in your document - and nothing gives you more control than LaTeX. But more controls generally come with a thick manual and one needs to be well versed to start using them.
+
+I had played a little with the LaTeX but without any serious work all that I had learnt was in vain. The first time I used LaTeX was to modify a presentation for the Spoken Tutorial voiced by me. Next came the big task - report for the Internship project. I was confident due my previous experience and started off. It took me one whole day to get the design for the first page ready then writing the content went on for quite some time. What was really exciting was to watch how the content written by me got properly formatted because of a few commands. The automatically generated contents page, the bibliography section, automatic page numbering, self updating references to pictures and tables etc were what kept me going through the task that I would have otherwise procrastinated until there was no excuse. And the output was lovely. Believe it or not, my guide liked the report more than the project :P.
+
+Next thing I tried was to create my Curriculum Vitae using it. After quite some searching I came across the package called moderncv and was again mesmerised by its way of depicting things.
+
+And almost everybody who saw <a href="http://anuvratparashar.com/cv/anuvrat-cv.pdf" target="_blank">the CV</a> was equally impressed by its design.
+
+LaTeX is the best way one can create a document. Though it has a steep learning curve, there are immense possibilities after one becomes comfortable with the constructs of the tool. Here are few links that might help someone wishing to start off:-</p>
+
+<p style="text-align: left;"><a title="LaTeX Wikibook" href="https://secure.wikimedia.org/wikibooks/en/wiki/LaTeX" target="_blank">https://secure.wikimedia.org/wikibooks/en/wiki/LaTeX</a>
+
+<a title="Video Tutorial Series" href="http://spoken-tutorial.org/Study_Plans_LaTeX" target="_blank">Video Tutorial Series</a>
+
+<a href="http://tex.stackexchange.com/" target="_blank">Stack Exchange</a>
+
+<a title="Mailing List of TeX User Group of India" href="http://tug.org/mailman/listinfo/tugindia" target="_blank">Mailing List of Tex User Group of India</a>
+
+<a href="http://tug.org/begin.html" target="_blank">A good place to start off</a></p></body></html>

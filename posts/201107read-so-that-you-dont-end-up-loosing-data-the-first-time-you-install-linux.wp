@@ -1,0 +1,60 @@
+<html><body><div style="text-align: justify;" dir="ltr">Have you already lost your data while installing Linux for the first time? Never mind, you are not the first one :) . Almost everybody, mostly Indians who have a tendency of trying out before reading manuals end up loosing all their data when they install Linux for the first time (I did too :P). It so happened that a friend who had taken some free advice from me on which distro he should choose, for beginning with Linux fooBaar'd his system. And I am writing this post so that I can point people to read it before they embark on the "dangerous" yet exciting path.
+There are quite a few things one has too keep in mind beforehand. Primarily, one has to have a firm belief in the fact that, nothing that one does, while installing Linux, may cause serious injuries to the hardware. Also, Linux is not responsible for the loss of your data, if you select the partition containing data, for formatting / change of Filesystem - so the user has to be alert. And one more thing to be noted is, no one can become an expert in the art of installing Linux, without getting the hands dirty. So if you were thinking of reading a lot of text before setting your sails, trust me, you may as well wait for ever. However, it will be good if you at least follow the links shared in this post and skim through to get an idea.
+
+Okay so that was a long moral lecture, now lets get down to business. First of all you need to select which distro you are going to get started with. And selecting can be a real task if you get to know how many of them are there. You can get more information about distros on <a href="http://www.distrowatch.com/">Distrowatch</a>. As for a beginner, the community generally recommends
+
+<ul style="text-align: justify;">
+	<li><span style="text-decoration: line-through;">Ubuntu</span>  - I won't recommend because of experimental change in interface.</li>
+	<li>Kubuntu (Ubuntu with <a href="http://en.wikipedia.org/wiki/KDE">KDE</a>) - more <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Ubuntu_%28operating_system%29">info </a></li>
+	<li>Linux Mint - more <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Linux_mint">info</a></li>
+</ul>
+
+Take a look at <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Desktop_Linux">article on Desktop Linux on Wikipedia </a>for more information on GNOME and KDE.
+
+Another thing a newcomer needs to etch on his brain is, it doesn't matter which distro / desktop environment he uses because, ultimately, all of it boils down to a personal preference. And there will be a lot of time in life for flame wars on topics like "my distro is cool and yours is crappy".
+
+So once a distro is chosen, you need to get it's installer on a bootable medium. The installer is generally an <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Iso_file">iso file</a> which needs to be burnt to a CD / DVD via some generic disk writing software or written to a usb drive using <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Unetbootin">UNetBootIn</a>. One can also get it along side various Tech - magazines like Linux For U or Digit. I don't think someone reading this would be n00b enough to be unable to search the Internet, visit the site of the distro, locate the ISO and download it.
+
+
+
+Now, that a bootable installer is there, one can easily boot from it. If restarting the computer while the installation medium (i.e CD / DVD is plugged in) does not work take a look at <a href="http://pcsupport.about.com/od/fixtheproblem/ss/bootorderchange.htm">this link</a>. After booting, things will be as simple as custard, except for disk partitioning. For somebody who has no experience with
+
+Next and the most important task is to create partitions in which the installation will take place. For detailed info on the directory structure and filesystem of Linux and preparing yourself to quit the clumsy comfort of C: and D: drives do go through the content on <a href="http://techblog.aasisvinayak.com/linux-file-system/">Aasis Vinayak's blog.</a> I intend to clearly and crisply introduce the simplest and safest partitioning scheme for a dual boot system with a Windows installation.
+
+One (or two in case of Win 7) primary partition for Windows.
+
+An extended partition containing:
+
+An NTFS formatted partition to be used as your D drive. (data should never be on the same partition as operating system - in case the OS needs to be re installed  - data would be safe.)
+
+An ext journaling filesystem for / (root) on linux. (essential)
+
+An ext partition for /home (read Aasis Vinayak's blog for explanation)
+
+A swap partition (essential - size should be double the RAM).
+
+The process of creating partitions may differ from one installer to another but since everything is in GUI, it is extremely intuitive and self explanatory so nobody can misunderstand.
+
+The rest all too obvious to be taken into consideration. In future if a newbie develops distro hopping tendencies wishes to setup a multi-boot environment <a href="http://bhanuvrat.blogspot.com/2011/03/partitioning-your-hard-drive-for.html">a previous post of mine</a> might come to the rescue.
+
+
+
+While I was searching the Internet for appropriate links to include in this post, I came across these, which intrigued me :
+
+<a href="http://www.vias.org/linux-knowhow/wrapnt414D24_newbie_guide.html">http://www.vias.org/linux-knowhow/wrapnt414D24_newbie_guide.html</a>
+
+<a href="http://www.tldp.org/LDP/intro-linux/html/index.html">http://www.tldp.org/LDP/intro-linux/html/index.html</a>
+
+Linux portal on wikipedia :-
+
+<strong><a href="https://secure.wikimedia.org/wikipedia/en/wiki/Portal:Linux">https://secure.wikimedia.org/wikipedia/en/wiki/Portal:Linux</a></strong>
+
+
+
+All the best for your venture.
+
+
+
+</div>
+
+<div class="blogger-post-footer"><img src="https://blogger.googleusercontent.com/tracker/8140814052305023172-2128983908160529364?l=bhanuvrat.blogspot.com" alt="" width="1" height="1"></div></body></html>

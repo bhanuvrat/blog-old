@@ -1,0 +1,16 @@
+<html><body><p>That is one of the most common complaints I get from people who decide to give Linux a try after talking to me. Recently something similar happened. A guy installed Linux Mint into his computer in dual boot with Windows 7, and after a few days Windows refused to boot with error message "BOOTMGR IS MISSING". In the situation at hand, GRUB (GRand Unified Bootloader) had nothing to do with the problem because Linux Mint was booting without any issue. As I had not encountered this issue in recent past, it took me a while to recall out how to proceed with GRUB2.
+
+
+These are few links which helped me re-familiarise myself with GRUB.
+
+
+
+https://help.ubuntu.com/community/Grub2
+
+
+
+http://en.gentoo-wiki.com/wiki/Grub2
+
+
+
+Although GRUB2 had been considerably criticised when it was added, I find it to be simple and intuitive. For a newbie however, a little bit of prior knowledge about the names with which partitions are referred in GRUB is required. Eg (hd0, msdos0) for the first partition in the hard drive. And one also needs to etch it into their memory that the problem being faced by them has most likely been faced by someone else earlier and the solution already exists on the Internet. So one just needs to use a friendly search engine.</p></body></html>

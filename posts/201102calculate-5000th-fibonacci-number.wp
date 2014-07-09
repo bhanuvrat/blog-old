@@ -1,0 +1,44 @@
+<html><body><div style="text-align: left;" dir="ltr">
+<div style="text-align: justify;">This year <a href="http://act2011.in/events/contrivance/hash-import/">programming competition</a> in <a href="http://www.act2011.in/">tech-fest</a> at college, was organised by the friend with whom I team up for participating in competitions of other colleges. It was obviously better than previous years. I mean,questions were good, had considerable participants and most importantly, programming was supposed to be done using gcc/g++/java.</div>
+
+<div style="text-align: justify;">There was a question which asked to print the n^th term of <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci series</a> where 0&lt;=n&lt;=5000. Frankly such a large number does not fit in whatever predefined data type you can think of. Creating something like <a href="http://download.oracle.com/javase/6/docs/api/java/math/BigInteger.html">BigInteger of java</a> would have been impossible during the competition and I am not an expert when it comes to java, so I skipped the problem. The coordinators accepted solution for 20 to 30 terms from other teams but demanded it for 5000 from me :P (being famous has its drawbacks !!!). Still I concentrated on other problems  (got through this one but couldn't go to the finals because its timing clashed with another one :( ).</div>
+
+<div style="text-align: justify;">Later that night, after the competition was over, one of the coordinators pinged me on gtalk and asked sarcastically for the solution. This got on my nerves and I determined that I will smack the 5000th element on their face.</div>
+
+<div style="text-align: justify;">There was a bigint library I had created about an year ago which stored numbers in character arrays and manipulated them. I shuffled through my code directory, found it and quickly created a recursive function using memorisation to serve the purpose. The problem was that it worked fine for inputs upto 1302 but gave a <a href="http://en.wikipedia.org/wiki/Segmentation_fault">segmentation fault</a> for numbers above that. Puzzled and perplexed I resorted to <a href="http://www.duckduckgo.com/">Internet search</a> and discovered that it was because of default stack size of 1MB allocated to every process. A few minutes later I stumbled upon the <a href="http://bit.ly/hNOljb%20">solution</a> to increasing it which was as simple a<span style="font-family: inherit;">s addin</span>g</div>
+
+<div style="text-align: center;">
+
+<div style="text-align: center;"><span style='font-family: ";'>ulimit -s unlimited <span style="font-family: inherit;"> </span></span></div>
+
+<div style="text-align: left;"><span style='font-family: ";'><span style="font-family: inherit;">to </span></span></div>
+
+</div>
+
+<div style="text-align: justify;">
+
+<div style="text-align: center;"><span style='font-family: ";'><span style="font-family: inherit;"><span style='font-family: ";'>/home/&lt;user_name&gt;/</span></span>.bashrc <span style="font-family: inherit;"> </span></span></div>
+
+<div style="font-family: inherit;"><span style="font-family: inherit;">file and starting a new session. This increased the stack size to unlimited i.e now my program could use all the RAM available.</span></div>
+
+</div>
+
+<div class="separator" style="clear: both; text-align: center;"><a style="margin-left: 1em; margin-right: 1em;" href="/wp-content/uploads/2011/08/bigintcrash1.jpeg">
+
+</a></div>
+
+<div style="text-align: justify;"><span style="font-family: inherit;">After this was done, my program successfully calculated and printed the sequence upto 7000 but ran out of RAM after this and gave <a href="http://stackoverflow.com/questions/212466/what-is-a-bus-error">Bus Error.</a> </span></div>
+
+<div style="text-align: justify;"><span style="font-family: inherit;">I redirected the output of the program to a text file, attached it to a mail and sent it to the coordinators ;)</span></div>
+
+<div style="text-align: justify;"><span style="font-family: inherit;">Here is a screenshot showing a terminal window with the 7000th Fibonacci number and  the state of my system while calculating it.</span></div>
+
+<p style="text-align: center;"><a style="margin-left: 1em; margin-right: 1em;" href="/wp-content/uploads/2011/08/bigintcrash1.jpeg"><img class="aligncenter" style="border: 0pt none;" src="http://blog.anuvrat.in/wp-content/uploads/2011/08/bigintcrash1.jpeg?w=300" alt="" width="576" height="324" border="0"></a></p>
+
+
+
+<div style="text-align: justify;"><span style="font-family: inherit;">P.S: The code for my program is hosted at <a href="http://www.github.com/bhanuvrat/bigint">www.github.com/bhanuvrat/bigint</a></span> .</div>
+
+</div>
+
+<div class="blogger-post-footer"><img src="https://blogger.googleusercontent.com/tracker/8140814052305023172-578728858129582967?l=bhanuvrat.blogspot.com" alt="" width="1" height="1"></div></body></html>
