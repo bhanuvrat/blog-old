@@ -1,6 +1,6 @@
 .. link: 
 .. description: 
-.. tags: python, linux, devops
+.. tags: python, Linux, devops
 .. date: 2014/01/05 07:32:53
 .. title: [techlog] January First Week
 .. slug: techlog-january-first-week

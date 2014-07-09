@@ -1,6 +1,6 @@
 .. link: 
 .. description: 
-.. tags: linux,
+.. tags: Linux,
 .. date: 2014/01/17 07:32:53
 .. title: Troubles while moving /var to other partition
 .. slug: troubles-while-moving-var-to-other-partition

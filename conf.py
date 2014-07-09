@@ -109,6 +109,7 @@ POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
+    ("posts/*.wp", "posts", "post.tmpl"),
 )
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
@@ -130,7 +131,7 @@ PAGES = (
 # 'html' assumes the file is html and just copies it
 COMPILERS = {
     "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
+    "markdown": ('.md', '.mdown', '.markdown', '.wp'),
     "textile": ('.textile',),
     "txt2tags": ('.t2t',),
     "bbcode": ('.bb',),
